@@ -1,4 +1,4 @@
-$background-color: #000;
+$background-color: #7ED0EF;
 $color: #fff;
 $header-and-footer-height: 3rem;
 $header-and-footer-padding: 0.5rem;
@@ -50,9 +50,8 @@ header {
 
           &:hover,
           &:focus {
-            background-color: $background-color;
-            color: $color;
-            filter: invert(1);
+            background-color: $color;
+            color: $background-color;
           }
         }
       }
@@ -119,7 +118,7 @@ footer {
 
           &:hover,
           &:focus {
-            filter: invert(0.5);
+            filter: brightness(0);
           }
         }
       }
