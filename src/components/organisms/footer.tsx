@@ -1,5 +1,5 @@
 import React from 'react'
-import { GraphicLink } from '../components/atoms'
+import { GraphicLink } from '../../components'
 
 export const Footer = () => {
   return (
