@@ -1,5 +1,6 @@
 import React from 'react'
 import { GraphicLink } from '../../components'
+import './footer.scss'
 
 export const Footer = () => {
   return (
