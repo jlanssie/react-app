@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { ReactNode } from 'react'
 import { Header, Footer } from '../components'
 import './layout.scss'
 
-export const Layout = ({ children }) => {
+interface Props {
+  children?: ReactNode
+}
+
+export const Layout = ({ children }: Props) => {
   return (
     <>
       <Header />
